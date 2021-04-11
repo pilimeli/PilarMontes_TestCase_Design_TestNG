@@ -69,11 +69,13 @@ local.properties
 .sts4-cache/
 .project
 .classpath
-
+*iml
+.idea
 
 ### Java ###
 # Compiled class file
 *.class
+
 
 # Log file
 *.log
