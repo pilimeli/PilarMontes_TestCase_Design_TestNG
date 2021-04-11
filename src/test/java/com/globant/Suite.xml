@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite">
+    <listeners>
+         <listener class-name="com.globant.Listener"/>
+    </listeners>
     <test name="AppTest">
         <classes>
             <class name="com.globant.AppTest"/>
